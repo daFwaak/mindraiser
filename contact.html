@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us</title>
+</head>
+<body>
+   <h1>Contact Page</h1> 
+   <fieldset>
+    <legend>User Infromation</legend>
+    <form action="mailto:tmgrboy1004@gmail.com" method="post" enctype="text/plain">
+     <p>
+        <label for="username">Username</label>
+        <input name="username" type="text" placeholder="Bhupin" id="username">
+     </p>
+     <p>
+        <label for="email">Email</label>
+        <input name="email" type="email" placeholder="abc@gmail.com" id="email"> 
+     </p>
+    <p>
+        <h1>Select Your Gender</h1>
+        <label for="male" >Male</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+    </p>
+    <p>
+        <h1>Select Your Habits</h1>
+        <label for="sleep" >Sleep</label>
+        <input type="checkbox" name="habit" value="sleep" id="sleep">
+        <label for="playgame">Play Games</label>
+        <input type="checkbox" name="habit" value="playgame" id="playgame">
+        <label for="sports" >Sports</label>
+        <input type="checkbox" name="habit" value="sports" id="sports">
+        <label for="read">Read Books</label>
+        <input type="checkbox" name="habit" value="read" id="read">
+   </p>
+    <p>
+        <textarea name="message" id="msg" placeholder="type your message" cols="40" rows="5"></textarea>
+    </p>
+   
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+    </form>
+   </fieldset>
+  
+</body>
+</html>
